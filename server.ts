@@ -112,7 +112,7 @@ let dbState = {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
 
   // Set higher sizing limits to allow full base64 file payloads and high-density whiteboard frames
   app.use(express.json({ limit: '65mb' }));
