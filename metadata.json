@@ -1,0 +1,6 @@
+{
+  "name": "P.R.S Classroom Pro",
+  "description": "یک پلتفرم هوشمند، پیشرفته و تعاملی آنلاین ویژه معلمان و دانش‌آموزان به صورت ۱۰۰٪ آفلاین و منطبق بر شبکه ملی مدارس کشور",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
